@@ -2,6 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
+import FloatingWhatsApp from './components/FloatingWhatsApp';
+import SocialSidebar from './components/SocialSidebar';
 
 // Pages
 import Home from './pages/Home';
@@ -28,6 +30,8 @@ function App() {
         </Routes>
       </main>
       <Footer />
+      <FloatingWhatsApp />
+      <SocialSidebar />
     </Router>
   );
 }

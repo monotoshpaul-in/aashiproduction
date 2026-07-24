@@ -20,6 +20,13 @@
 .footer-logo {
   color: var(--color-white);
   margin-bottom: 20px;
+  display: inline-block;
+}
+
+.footer-logo-img {
+  height: 80px;
+  width: auto;
+  object-fit: contain;
 }
 
 .footer-tagline {

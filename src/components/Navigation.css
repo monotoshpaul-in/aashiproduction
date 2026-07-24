@@ -30,6 +30,12 @@
   text-transform: uppercase;
 }
 
+.brand-logo-img {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+}
+
 .desktop-nav {
   display: flex;
   align-items: center;
